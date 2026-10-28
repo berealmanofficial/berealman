@@ -1,0 +1,36 @@
+
+> be-real-man@0.1.0 dev
+> vite
+
+
+  VITE v7.3.7  ready in 276 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://169.254.77.2:3000/
+7:24:53 PM [vite] (client) hmr update /src/index.css
+7:24:57 PM [vite] (client) hmr update /src/components/layout.tsx, /src/index.css
+7:25:04 PM [vite] (client) hmr update /src/index.css, /src/components/ui.tsx
+7:25:11 PM [vite] (client) hmr update /src/pages/CheckoutPage.tsx, /src/index.css
+7:25:18 PM [vite] (client) hmr update /src/pages/VideosPages.tsx, /src/index.css
+7:25:24 PM [vite] (client) hmr update /src/index.css, /src/components/PaymentMethodCards.tsx
+7:25:28 PM [vite] (client) hmr update /src/index.css, /src/components/HeroSlider.tsx
+7:25:32 PM [vite] (client) hmr update /src/index.css, /src/lib/AdminGate.tsx
+7:25:36 PM [vite] (client) hmr update /src/pages/AdminPaymentsPage.tsx, /src/index.css
+7:25:45 PM [vite] (client) page reload src/lib/theme.ts
+7:35:02 PM [vite] (client) hmr update /src/pages/LoginPage.tsx, /src/index.css
+7:35:06 PM [vite] (client) hmr update /src/pages/ProfilePage.tsx, /src/index.css
+7:36:05 PM [vite] (client) hmr update /src/index.css, /src/pages/ProfilePage.tsx
+7:36:10 PM [vite] (client) hmr update /src/components/layout.tsx, /src/index.css
+7:36:12 PM [vite] (client) hmr update /src/pages/ArticleDetailPage.tsx, /src/index.css
+7:37:19 PM [vite] (client) hmr update /src/index.css
+7:59:11 PM [vite] (client) hmr update /src/components/layout.tsx, /src/index.css
+8:00:01 PM [vite] (client) hmr update /src/components/layout.tsx, /src/index.css
+8:10:30 PM [vite] (client) hmr update /src/index.css, /src/components/PaymentMethodCards.tsx
+8:10:33 PM [vite] (client) hmr update /src/pages/CheckoutPage.tsx, /src/index.css
+8:10:37 PM [vite] (client) hmr update /src/pages/ProfilePage.tsx, /src/index.css
+8:12:46 PM [vite] (client) hmr update /src/index.css, /src/pages/AdminPaymentsPage.tsx, /src/pages/BooksPages.tsx, /src/pages/CheckoutPage.tsx, /src/pages/PremiumPages.tsx, /src/pages/ProfilePage.tsx
+8:12:49 PM [vite] (client) hmr update /src/pages/CoursesPages.tsx, /src/index.css
+8:13:49 PM [vite] (client) hmr update /src/index.css
+8:13:52 PM [vite] (client) hmr update /src/index.css
+8:17:26 PM [vite] (client) hmr update /src/index.css, /src/components/PaymentMethodCards.tsx
+8:17:29 PM [vite] (client) hmr update /src/index.css

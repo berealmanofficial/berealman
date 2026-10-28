@@ -1,0 +1,91 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #ffffff;
+  --shell: #fafaf7;
+  --content: #ffffff;
+  --header-footer: #fafaf7;
+  --surface: #ffffff;
+  --surface-2: #f5f4ef;
+  --ink: #1c1917;
+  --muted: #57534e;
+  --faint: #78716c;
+  --line: #e7e5e4;
+  --brand: #047857;
+  --brand-strong: #065f46;
+  --brand-soft: #ecfdf5;
+  --brand-line: #a7f3d0;
+  --danger: #b91c1c;
+  --danger-soft: #fef2f2;
+  --amber-soft: #fffbeb;
+  --amber-line: #fcd34d;
+}
+
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-shell: var(--shell);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-faint: var(--faint);
+  --color-line: var(--line);
+  --color-brand: var(--brand);
+  --color-brand-strong: var(--brand-strong);
+  --color-brand-soft: var(--brand-soft);
+  --color-brand-line: var(--brand-line);
+  --color-danger: var(--danger);
+  --color-danger-soft: var(--danger-soft);
+  --font-sans: "Hind Siliguri", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-bnserif: "Noto Serif Bengali", Georgia, serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--ink);
+  font-family: "Hind Siliguri", ui-sans-serif, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Focus outlines are opt-out below; each opt-in component controls its own style */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  scrollbar-width: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Rich Bengali article typography */
+.article-body {
+  font-size: 1.0625rem;
+  line-height: 2;
+}
+.article-body p + p {
+  margin-top: 1.25rem;
+}
+.article-body h2 {
+  font-family: "Noto Serif Bengali", Georgia, serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin-top: 2.5rem;
+  margin-bottom: 0.75rem;
+}
